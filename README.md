@@ -112,8 +112,14 @@ __Protocole pour obtenir une solution fille a partir de deux solutions mères et
 
 - Remplir une cuve de spectrophotométrie avec la solution fille
 
+__Code pour obtenir une image filtré
+
 ## __Observations__
 
 __Filtrage de la lumière par des filtres colorés :__
+
+![Image](spectre%20filtre.png)
+
+__Filtrage d'une imege avec un filtre__
 
 

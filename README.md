@@ -217,4 +217,14 @@ __Filtrage de la lumière par des filtres colorés :__
 
 ![Image](spectre%20filtre.png)
 
-__Filtrage d'une imege avec un filtre__
+__Filtrage d'une image avec un filtre__
+
+<img src="image_carree.jpg" title="" alt="Image" width="546">
+
+__Filtrage d'une image avec un algorithme__
+
+![](photo_filtree.png)
+
+__Filtrage de la lumière par une solution__
+
+![](spectre%20solution.png)

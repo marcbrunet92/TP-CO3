@@ -1,14 +1,14 @@
-# __Compte rendu du TP de physique chimie n°3__
+# Compte rendu du TP de physique chimie n°3
 
 Quelle relation exitste-t-il entre la couleur de la solution et la presence d'éspèces chimiques colorantes dissoutes ?
 
-## __Objectif__
+## Objectif
 
 - Explorer les propriété des filtres
 - Explorer les propriété des solutions colorées
 - Début d'une réfléxion sur le moyen d'analyser une solution avec la spectrophotométrie et la mesure de l'absorbance
 
-## __Moyens__
+## Moyens
 
 - 1 jeu de filtres primaire (RVB)
 
@@ -42,7 +42,7 @@ Quelle relation exitste-t-il entre la couleur de la solution et la presence d'é
 
 - 1 webcam
 
-## __Méthodes__
+## Méthodes
 
 Pour ce tp on realise trois montages :
 
@@ -62,7 +62,7 @@ On obtient les données avec le spectrophotomètre relié a l'ordinateur et la c
 
 Dans ce TP on considère la lumière comme étant une onde.    
 
-__Protocole pour obtenir de la lumière filtré :__
+###### Protocole pour obtenir de la lumière filtré :
 
 - Aligner la lampe, le systeme porte filtre et la fibre optique.
 
@@ -82,13 +82,13 @@ __Protocole pour obtenir de la lumière filtré :__
   
   - magenta et jaune ensemble
 
-__Protocole pour obtenir une image avec un filtre:__
+###### Protocole pour obtenir une image avec un filtre:
 
 - Relier la caméra à l'ordinateur
 
 - Aligner la camera un filtre et une image
 
-__Protocole pour obtenir des solutions colorées de concentration 5 fois inferieures à la solution mère__
+###### Protocole pour obtenir des solutions colorées de concentration 5 fois inferieures à la solution mère
 
 - mettre environ 20 mL de solution mère dans un becher 
 
@@ -100,7 +100,7 @@ __Protocole pour obtenir des solutions colorées de concentration 5 fois inferie
 
 - Remplir une cuve de spectrophotométrie avec la solution fille 
 
-__Protocole pour obtenir une solution fille a partir de deux solutions mères et d'un solvant__
+###### Protocole pour obtenir une solution fille a partir de deux solutions mères et d'un solvant
 
 - Mettre environ 20 mL de chacune des solutions mères dans un becher distinct
 
@@ -118,7 +118,7 @@ __Protocole pour obtenir une solution fille a partir de deux solutions mères et
 
 - Remplir une cuve de spectrophotométrie avec la solution fille
 
-__Protocole pour obtenir une photo filtrée numériquement__
+###### Protocole pour obtenir une photo filtrée numériquement
 
 - soumettre la photo à ce code 
 
@@ -211,20 +211,128 @@ if sys.platform.startswith('darwin'):
     sys.exit()
 ```
 
-## __Observations__
+## Observations
 
-__Filtrage de la lumière par des filtres colorés :__
+###### Filtrage de la lumière par des filtres colorés :
 
 ![Image](spectre%20filtre.png)
 
-__Filtrage d'une image avec un filtre__
+| couleur du filtre | longueur d'onde | Intensité |
+| ----------------- | --------------- | --------- |
+| Rien              | 450.7           | 19.780    |
+| Cyan              | 450,7           | 12.308    |
+| Bleu              | 450.7           | 8.823     |
+| 2 cyan            | 450.7           | 8.182     |
+| Bleu + cyan       | 450.7           | 7.106     |
+| Rien              | 517             | 17.192    |
+| Cyan              | 517             | 12.503    |
+| 2 cyan            | 517             | 9.560     |
+| Rien              | 650             | 8.181     |
+| Rouge             | 650             | 5.812     |
+| 2 rouge           | 650             | 4.927     |
+
+###### Filtrage d'une image avec un filtre
 
 <img src="image_carree.jpg" title="" alt="Image" width="546">
 
-__Filtrage d'une image avec un algorithme__
+###### Filtrage d'une image avec un algorithme
 
 ![](photo_filtree.png)
 
-__Filtrage de la lumière par une solution__
+###### Filtrage de la lumière par une solution
 
 ![](spectre%20solution.png)
+
+| couleur de la solution | concentration              | longueur d'onde | Absorbance |
+| ---------------------- | -------------------------- | --------------- | ---------- |
+| eau                    |                            | 420             | 0.000      |
+| bleu                   | <p>1.1*10<sup>-4</sup></p> | 420             | 0.000      |
+| jaune                  | <p>1.1*10<sup>-4</sup></p> | 420             | 0.988      |
+| jaune                  | <p>2.2*10<sup>-5</sup></p> | 420             | 0.518      |
+| bleu et jaune          | <p>2.2*10<sup>-5</sup></p> | 420             | 0.358      |
+|                        |                            |                 |            |
+| eau                    |                            | 629.5           | 0.000      |
+| bleu                   | <p>1.1*10<sup>-4</sup></p> | 629.5           | 0.402      |
+| bleu                   | <p>2.2*10<sup>-5</sup></p> | 629.5           | 0.049      |
+| jaune                  | <p>1.1*10<sup>-4</sup></p> | 629.5           | 0.000      |
+| bleu et jaune          | <p>2.2*10<sup>-5</sup></p> | 629.5           | 0.071      |
+
+## Exploitation
+
+###### Filtrage de la lumière avec un filtre
+
+On calcule la transmittace et l'absorbance de chaque filtre pour une longeur d'onde :
+
+$$
+T = \frac{I}{I_0} \hspace{1cm}A = -\log_{10} T
+$$
+
+Avec T = la transmittance (sans unité)
+
+          I = L'intensité du a limère transmise
+
+         I<sub>0</sub> = l'intensité incidente (celle de la lumiere blanche pour la longuer d'onde)
+
+           A = l'absorbance (sans unité)
+
+On obtient :
+
+| couleur du filtre | longueur d'onde | Intensité | Transmittance (%) | Absorbance |
+| ----------------- | --------------- | --------- | ----------------- | ---------- |
+| Rien              | 450.7           | 19.780    | 100.0             | 0.000      |
+| Cyan              | 450.7           | 12.308    | 62.23             | 0.206      |
+| Bleu              | 450.7           | 8.823     | 44.62             | 0.353      |
+| 2 cyan            | 450.7           | 8.182     | 41.37             | 0.384      |
+| Bleu + cyan       | 450.7           | 7.106     | 35.93             | 0.444      |
+| Rien              | 517             | 17.192    | 100.0             | 0.000      |
+| Cyan              | 517             | 12.503    | 72.72             | 0.136      |
+| 2 cyan            | 517             | 9.560     | 55.63             | 0.265      |
+| Rien              | 650             | 8.181     | 100.0             | 0.000      |
+| Rouge             | 650             | 5.812     | 71.05             | 0.154      |
+| 2 rouge           | 650             | 4.927     | 60.22             | 0.219      |
+
+On voit que lorsqu'il y a plusieurs filtre, la transmittance globale est egale au produit des transmittance de chaque filtre :
+
+$$
+T_{cyan+cyan} = T_{cyan} \times T_{cyan} = {T_{cyan}}^2
+$$
+
+Par exemple, pour les deux filtres cyan on a :
+
+$$
+T_{cyan+cyan} = 41.37\%
+$$
+
+$$
+{T_{cyan}}^2 = 62.23\%^2 = 38.73\%           
+$$
+
+Par contre,l'absorbance d'un ensemble de filtre est egale a l'absorbance de chaque filtre.
+
+$$
+A_{cyan + cyan} = A_{cyan}+A_{cyan}=2\times A_{cyan}
+$$
+
+Par exemple pour le cyan : 
+
+$$
+A_{cyan+cyan}= 0.265 \hspace{1 cm} 2\times A_{cyan}=0.136\times2=0.272
+$$
+
+la somme est une opération plus simple que le produit donc il est logique de travailler avec l'absorbance. Plus l'epaisseur du filtre est grande et plus l'absorbance est grande. Pour la transmittance, c'est l'inverse.
+
+###### Filtrage d'une image avec un filtre
+
+On voit que sur l'image numérique, le filtre est asolu est obitent du noir pour toute les couleurs qui ne contiennent pas la couleur du filtre. Alors que sur l'image filtrée expérimentalement,le filtre laisse passer un peu du rest. Par exemple, sur l'image bleue, on voit que c'est majoritairement gris alors que le decoupage devrait être plus franc. On voit aussi que le filtre vert est le meilleur des trois.
+
+Lorqu'on place un filtre rouge sur le trajet d'un faisceau de lumière blanche, on obtient de la lumière rouge. Or la lumière blanche est composé de lumière rouge, verte et bleue. Donc la lumière bleue et verte ont été absorbée. Le filtrage relève onc de la synthèse soustractive. 
+
+Lorsqu'on parle de la couleur d'un filtre, on parle de la couleur que le filtre laisse passer.
+
+###### Filtrage de la lumière avec une solution
+
+Les cuves de spectrophotométrie font toutes la même largeur. Grace a cela on peut comparer les resultats car la lumiere traverse autant de solutions dans chaque cas.
+
+La couleur de la solution est la couleur que la solution laissé passé comme dans le cas d'un filtre. Donc lorsqu'on observe la couleur d'une solution rouge à travers un filtre vert cela fait comme si on observe de la lumiere blanche a travers deux filtre rouge et vert. Dans ce cas on voit la soution noire.
+
+Lorsqu'on dilue la solution 5 fois, l'absorbance diminue. En effet la lumière est moins absorbée parce qu'il y a moins de soluté absorbant. Dans le cas de la solution jaune, lorsque la concentration passe de 1.1\*10<sup>-4</sup> mol/L à 2.2*10<sup>-5</sup>, l'absorbance passe de 0.988 à 0.518.

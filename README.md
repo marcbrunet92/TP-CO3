@@ -332,11 +332,8 @@ Lorsqu'on parle de la couleur d'un filtre, on parle de la couleur que le filtre 
 ###### Filtrage de la lumière avec une solution
 
 Les cuves de spectrophotométrie font toutes la même largeur. Grace a cela on peut comparer les resultats car la lumiere traverse autant de solutions dans chaque cas.
-
 La couleur de la solution est la couleur que la solution laissé passé comme dans le cas d'un filtre. Donc lorsqu'on observe la couleur d'une solution rouge à travers un filtre vert cela fait comme si on observe de la lumiere blanche a travers deux filtre rouge et vert. Dans ce cas on voit la soution noire.
-
 Lorsqu'on dilue la solution 5 fois, l'absorbance diminue. En effet la lumière est moins absorbée parce qu'il y a moins de soluté absorbant. Dans le cas de la solution jaune, lorsque la concentration passe de 1.1\*10<sup>-4</sup> mol/L à 2.2*10<sup>-5</sup>, l'absorbance passe de 0,988 à 0,518.
-
 Lorsqu'on melange les deux solutions il y a une synthese additive. La solution est donc verte et laisse passer le vert. 
-
-Chaque colorant subit une dilution de facteur 5 et elle est donc concentré pour chaque colorant à 2.2\*10<sup>-5</sup> mol/L.
+Chaque colorant subit une dilution de facteur 5 et elle est donc concentré pour chaque colorant à 2.2\*10<sup>-5</sup> mol/L. On peut obtenir un lien de proportionalité entre la concentration en colorant et l'absorbance pour une longueur d'onde specifique.
+Par exemple, pour le colorant jaune, on a 

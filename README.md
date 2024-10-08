@@ -331,14 +331,50 @@ Lorsqu'on parle de la couleur d'un filtre, on parle de la couleur que le filtre 
 
 ###### Filtrage de la lumière avec une solution
 
-Les cuves de spectrophotométrie font toutes la même largeur. Grace a cela on peut comparer les resultats car la lumiere traverse autant de solutions dans chaque cas.
+Les cuves de spectrophotométrie font toutes la même largeur. Grace a cela on peut comparer les resultats car la lumiere traverse autant de solutions dans chaque cas. 
 
-La couleur de la solution est la couleur que la solution laissé passé comme dans le cas d'un filtre. Donc lorsqu'on observe la couleur d'une solution rouge à travers un filtre vert cela fait comme si on observe de la lumiere blanche a travers deux filtre rouge et vert. Dans ce cas on voit la soution noire.
+La couleur de la solution est la couleur que la solution laissé passé comme dans le cas d'un filtre. Donc lorsqu'on observe la couleur d'une solution rouge à travers un filtre vert cela fait comme si on observe de la lumiere blanche a travers deux filtre, un rouge et un vert. Dans ce cas on voit la soution noire.
 
 Lorsqu'on dilue la solution 5 fois, l'absorbance diminue. En effet la lumière est moins absorbée parce qu'il y a moins de soluté absorbant. Dans le cas de la solution jaune, lorsque la concentration passe de 1.1\*10<sup>-4</sup> mol/L à 2.2*10<sup>-5</sup>, l'absorbance passe de 0,988 à 0,518.
 
-Lorsqu'on melange les deux solutions il y a une synthese additive. La solution est donc verte et laisse passer le vert. 
+Lorsqu'on melange les deux solutions il y a une synthese additive. La solution est donc verte car elle laisse passer le vert. 
 
-Chaque colorant subit une dilution de facteur 5 et elle est donc concentré pour chaque colorant à 2.2\*10<sup>-5</sup> mol/L.
+Chaque colorant subit une dilution de facteur 5, la solution est donc concentrée pour chaque colorant à 2.2\*10<sup>-5</sup> mol/L.
 
-Lorsqu'on compare differentes solutions, il faut prendre dux longueurs d'onde caractéristiques.
+Lorsqu'on compare differentes solutions, il faut prendre deux longueurs d'onde caractéristiques( comme des valeurs maximales) car il est plus simple de les comparer et de les voirs sur un graphique. Ces radiations donnent aussi la couleur de la solution.
+
+Si on cherche a établir un lien de proportionalité, on peut utiliser les mesures faites sur la solution jaune a la longueur d'onde 420nm : 
+
+| Solution | Concentration              | Absorbance |
+| -------- | -------------------------- | ---------- |
+| Jaune    | <p>1.1*10<sup>-4</sup></p> | 0.988      |
+| Jaune    | <p>2.2*10<sup>-5</sup></p> | 0.518      |
+
+$$
+A = C*k \hspace{1cm} k=\frac{1.1*10^-4-2.2*10^-5}{0.988-0518}≈1.87×10^
+{−4}
+$$
+
+On peut donc constater la presence d'une loi qui relie la concentration et l'absorbance. Cette loi est celle de Beer-Lambert : 
+
+$$
+A=k*C
+$$
+
+Avec :
+
+- A : L'absorbance (sans unité)
+
+- k : Le coefficient de proportionnalité en L/mol
+
+- C : La concentration en mol/L
+
+## Validation
+
+On constate que le resultat attendu est conforme aux attentes. En effet, on preovyait le comportement des filtres. On constate que les mesures comporte un certain degré d'incertitudes car la droite obtenu pour la proportionnalité ne croise pas parfaitement tous les points.
+
+La loi des Beer-Lambert, que nous avons verifié dans la derniere partie de l'exploitation, nous permet de conclure quant à l'existance d'une relation entre la couleur de la solution et sa concentration en colorant.
+
+## Conclusion
+
+## 

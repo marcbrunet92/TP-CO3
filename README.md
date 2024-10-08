@@ -373,8 +373,14 @@ Avec :
 
 On constate que le resultat attendu est conforme aux attentes. En effet, on preovyait le comportement des filtres. On constate que les mesures comporte un certain degré d'incertitudes car la droite obtenu pour la proportionnalité ne croise pas parfaitement tous les points.
 
+Pour l'image que l'on a filmé a travers un filtre, on voit que le filtre numérique est beaucoup plus efficace que le filtre réel qui est imparfait(Il n'est pas centré sur la bonne longueur d'onde)
+
 La loi des Beer-Lambert, que nous avons verifié dans la derniere partie de l'exploitation, nous permet de conclure quant à l'existance d'une relation entre la couleur de la solution et sa concentration en colorant.
 
 ## Conclusion
 
-## 
+Ces travax ont permis d'explorer les propriétés des filtres, la transmittance et l'absorbance ainsi que les differentes syntheses resultants de la combinaison de filtres et de lumière.
+
+Ces travaux nous ont montré que l'ont pouvait assimiler des solutions colorer a des filtres plus precis car on peut faire verier leur couleur grace a des colorants.
+
+Ces travaux nous ont permis de commencer une réfléxion sur le moyen d'analyser une solution avec une couleur. Maintenant on peut deduire la concentration d'une solution a partir de l'absorbance et vice-versa, si on connait une valeur de reference pour la solution.

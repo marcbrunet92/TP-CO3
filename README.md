@@ -1,12 +1,12 @@
 # Compte rendu du TP de physique chimie n°3
 
-Quelle relation exitste-t-il entre la couleur de la solution et la presence d'éspèces chimiques colorantes dissoutes ?
+Quelle relation existe-t-il entre la couleur de la solution et la présence d'espèces chimiques colorantes dissoutes ?
 
 ## Objectif
 
 - Explorer les propriété des filtres
 - Explorer les propriété des solutions colorées
-- Début d'une réfléxion sur le moyen d'analyser une solution avec la spectrophotométrie et la mesure de l'absorbance
+- Début d'une réflexion sur le moyen d'analyser une solution avec la spectrophotométrie et la mesure de l'absorbance
 
 ## Moyens
 
@@ -16,13 +16,13 @@ Quelle relation exitste-t-il entre la couleur de la solution et la presence d'é
 
 - 1 source LED de lumière blanche
 
-- 1 spectrophotomètre USB avec fibre optique + cuve + syseme porte cuve
+- 1 spectrophotomètre USB avec fibre optique + cuve + système porte cuve
 
 - 5 cuves de spectrophotométrie + porte cuve
 
 - 1 fiole jaugée de 50mL avec bouchon
 
-- 2 bechers de 50mL
+- 2 béchers de 50mL
 
 - 3 erlenmeyers de 50mL
 
@@ -32,7 +32,7 @@ Quelle relation exitste-t-il entre la couleur de la solution et la presence d'é
 
 - 10 pipette compte-goutte
 
-- 1 pisette d'eau déminéralisé
+- 1 pissette d'eau déminéralisé
 
 - 1 flacon de 60mL avec bleu patenté (E133) à la concentration de $1.0*10^-5$ mol/L
 
@@ -44,33 +44,33 @@ Quelle relation exitste-t-il entre la couleur de la solution et la presence d'é
 
 ## Méthodes
 
-Pour ce tp on realise trois montages :
+Pour ce TP on réalise trois montages :
 
-- schema du pemier montage avec la lumiere, les filtres, la fibre et le spectrophotomètre 
+- schéma du premier montage avec la lumiere, les filtres, la fibre et le spectrophotomètre 
   
   ![a](schema%201.jpg)
 
-- schema d'une camera qui observe des schema à travers un filtre.
+- schéma d'une caméra qui observe des schéma à travers un filtre.
   
   ![aa](schema%202.jpg)
 
-- schema de flacon avec des colorants de differentes concentrations.
+- schéma de flacon avec des colorants de différentes concentrations.
   
   ![aa](schéma%203.jpg)
 
-On obtient les données avec le spectrophotomètre relié a l'ordinateur et la caméra. On obtient une photo et un schéma de l'intensité lumineuse en fontion de la longueur d'onde.
+On obtient les données avec le spectrophotomètre relié à l'ordinateur et la caméra. On obtient une photo et un schéma de l'intensité lumineuse en fonction de la longueur d'onde.
 
-Dans ce TP on considère la lumière comme étant une onde.    
+Dans ce TP on considère la lumière comme étant une onde.    
 
 ###### Protocole pour obtenir de la lumière filtré :
 
-- Aligner la lampe, le systeme porte filtre et la fibre optique.
+- Aligner la lampe, le système porte filtre et la fibre optique.
 
 - Mettre l'autre côté de la fibre optique dans le spectrophotomètre.
 
-- étalonner le logiciel du spectrophtomètre avec une lumiere blanche 
+- étalonner le logiciel du spectrophotomètre avec une lumiere blanche 
 
-- Realiser un spectre avec differents filtres coloré : 
+- Réaliser un spectre avec différents filtres coloré : 
   
   - les trois primaires
   
@@ -86,11 +86,11 @@ Dans ce TP on considère la lumière comme étant une onde.    
 
 - Relier la caméra à l'ordinateur
 
-- Aligner la camera un filtre et une image
+- Aligner la caméra un filtre et une image
 
-###### Protocole pour obtenir des solutions colorées de concentration 5 fois inferieures à la solution mère
+###### Protocole pour obtenir des solutions colorées de concentration 5 fois inférieures à la solution mère
 
-- mettre environ 20 mL de solution mère dans un becher 
+- mettre environ 20 mL de solution mère dans un bécher 
 
 - en prélever 10 mL dans une pipette gradué
 
@@ -100,15 +100,15 @@ Dans ce TP on considère la lumière comme étant une onde.    
 
 - Remplir une cuve de spectrophotométrie avec la solution fille 
 
-###### Protocole pour obtenir une solution fille a partir de deux solutions mères et d'un solvant
+###### Protocole pour obtenir une solution fille à partir de deux solutions mères et d'un solvant
 
-- Mettre environ 20 mL de chacune des solutions mères dans un becher distinct
+- Mettre environ 20 mL de chacune des solutions mères dans un bécher distinct
 
-- Prelever 10 mL de la première solution mère dans une pipette jaugée
+- Prélever 10 mL de la première solution mère dans une pipette jaugée
 
 - La verser dans la fiole jaugée
 
-- Prelever 10 mL de la seconde solution mère dans une pipette jaugée
+- Prélever 10 mL de la seconde solution mère dans une pipette jaugée
 
 - La verser dans la fiole jaugée
 
@@ -261,7 +261,7 @@ if sys.platform.startswith('darwin'):
 
 ###### Filtrage de la lumière avec un filtre
 
-On calcule la transmittace et l'absorbance de chaque filtre pour une longeur d'onde :
+On calcule la transmittance et l'absorbance de chaque filtre pour une longueur d'onde :
 
 $$
 T = \frac{I}{I_0} \hspace{1cm}A = -\log_{10} T
@@ -269,11 +269,11 @@ $$
 
 Avec T = la transmittance (sans unité)
 
-          I = L'intensité du a limère transmise
-
-         I<sub>0</sub> = l'intensité incidente (celle de la lumiere blanche pour la longuer d'onde)
-
-           A = l'absorbance (sans unité)
+          I = L'intensité du a lumière transmise
+    
+         I<sub>0</sub> = l'intensité incidente (celle de la lumiere blanche pour la longueur d'onde)
+    
+           A = l'absorbance (sans unité)
 
 On obtient :
 
@@ -291,7 +291,7 @@ On obtient :
 | Rouge             | 650             | 5.812     | 71.05             | 0.154      |
 | 2 rouge           | 650             | 4.927     | 60.22             | 0.219      |
 
-On voit que lorsqu'il y a plusieurs filtre, la transmittance globale est egale au produit des transmittance de chaque filtre :
+On voit que lorsqu'il y a plusieurs filtre, la transmittance globale est égale au produit des transmittance de chaque filtre :
 
 $$
 T_{cyan+cyan} = T_{cyan} \times T_{cyan} = {T_{cyan}}^2
@@ -307,7 +307,7 @@ $$
 {T_{cyan}}^2 = 62.23\%^2 = 38.73\%           
 $$
 
-Par contre,l'absorbance d'un ensemble de filtre est egale a l'absorbance de chaque filtre.
+Par contre, l’absorbance d'un ensemble de filtre est égale à l'absorbance de chaque filtre.
 
 $$
 A_{cyan + cyan} = A_{cyan}+A_{cyan}=2\times A_{cyan}
@@ -319,31 +319,31 @@ $$
 A_{cyan+cyan}= 0.265 \hspace{1 cm} 2\times A_{cyan}=0.136\times2=0.272
 $$
 
-la somme est une opération plus simple que le produit donc il est logique de travailler avec l'absorbance. Plus l'epaisseur du filtre est grande et plus l'absorbance est grande. Pour la transmittance, c'est l'inverse.
+la somme est une opération plus simple que le produit donc il est logique de travailler avec l'absorbance. Plus l'épaisseur du filtre est grande et plus l'absorbance est grande. Pour la transmittance, c'est l'inverse.
 
 ###### Filtrage d'une image avec un filtre
 
-On voit que sur l'image numérique, le filtre est asolu est obitent du noir pour toute les couleurs qui ne contiennent pas la couleur du filtre. Alors que sur l'image filtrée expérimentalement,le filtre laisse passer un peu du rest. Par exemple, sur l'image bleue, on voit que c'est majoritairement gris alors que le decoupage devrait être plus franc. On voit aussi que le filtre vert est le meilleur des trois.
+On voit que sur l'image numérique, le filtre est absolu donc on obtient du noir pour toute les couleurs qui ne contiennent pas la couleur du filtre. Alors que sur l'image filtrée expérimentalement, le filtre laisse passer un peu du reste. Par exemple, sur l'image bleue, on voit que c'est majoritairement gris alors que le découpage devrait être plus franc. On voit aussi que le filtre vert est le meilleur des trois.
 
-Lorqu'on place un filtre rouge sur le trajet d'un faisceau de lumière blanche, on obtient de la lumière rouge. Or la lumière blanche est composé de lumière rouge, verte et bleue. Donc la lumière bleue et verte ont été absorbée. Le filtrage relève onc de la synthèse soustractive. 
+Lorsqu’on place un filtre rouge sur le trajet d'un faisceau de lumière blanche, on obtient de la lumière rouge. Or la lumière blanche est composée de lumière rouge, verte et bleue. Donc la lumière bleue et verte ont été absorbée. Le filtrage relève onc de la synthèse soustractive. 
 
 Lorsqu'on parle de la couleur d'un filtre, on parle de la couleur que le filtre laisse passer.
 
 ###### Filtrage de la lumière avec une solution
 
-Les cuves de spectrophotométrie font toutes la même largeur. Grace a cela on peut comparer les resultats car la lumiere traverse autant de solutions dans chaque cas. 
+Les cuves de spectrophotométrie font toutes la même largeur. Grace a cela on peut comparer les résultats car la lumiere traverse autant de solutions dans chaque cas. 
 
-La couleur de la solution est la couleur que la solution laissé passé comme dans le cas d'un filtre. Donc lorsqu'on observe la couleur d'une solution rouge à travers un filtre vert cela fait comme si on observe de la lumiere blanche a travers deux filtre, un rouge et un vert. Dans ce cas on voit la soution noire.
+La couleur de la solution est la couleur que la solution laisse passer comme dans le cas d'un filtre. Donc lorsqu'on observe la couleur d'une solution rouge à travers un filtre vert cela fait comme si on observe de la lumiere blanche à travers deux filtres, un rouge et un vert. Dans ce cas on voit la solution grise (un noir pas très franc).
 
 Lorsqu'on dilue la solution 5 fois, l'absorbance diminue. En effet la lumière est moins absorbée parce qu'il y a moins de soluté absorbant. Dans le cas de la solution jaune, lorsque la concentration passe de 1.1\*10<sup>-4</sup> mol/L à 2.2*10<sup>-5</sup>, l'absorbance passe de 0,988 à 0,518.
 
-Lorsqu'on melange les deux solutions il y a une synthese additive. La solution est donc verte car elle laisse passer le vert. 
+Lorsqu'on mélange les deux solutions il y a une synthèse additive. La solution est donc verte car elle laisse passer le vert. 
 
 Chaque colorant subit une dilution de facteur 5, la solution est donc concentrée pour chaque colorant à 2.2\*10<sup>-5</sup> mol/L.
 
-Lorsqu'on compare differentes solutions, il faut prendre deux longueurs d'onde caractéristiques( comme des valeurs maximales) car il est plus simple de les comparer et de les voirs sur un graphique. Ces radiations donnent aussi la couleur de la solution.
+Lorsqu'on compare différentes solutions, il faut prendre deux longueurs d'onde caractéristiques (comme des valeurs maximales) car il est plus simple de les comparer et de les voir sur un graphique. Ces radiations donnent aussi la couleur de la solution.
 
-Si on cherche a établir un lien de proportionalité, on peut utiliser les mesures faites sur la solution jaune a la longueur d'onde 420nm : 
+Si on cherche à établir un lien de proportionnalité, on peut utiliser les mesures faites sur la solution jaune a la longueur d'onde 420nm : 
 
 | Solution | Concentration              | Absorbance |
 | -------- | -------------------------- | ---------- |
@@ -355,7 +355,7 @@ A = C*k \hspace{1cm} k=\frac{1.1*10^-4-2.2*10^-5}{0.988-0518}≈1.87×10^
 {−4}
 $$
 
-On peut donc constater la presence d'une loi qui relie la concentration et l'absorbance. Cette loi est celle de Beer-Lambert : 
+On peut donc constater la présence d'une loi qui relie la concentration et l'absorbance. Cette loi est celle de Beer-Lambert : 
 
 $$
 A=k*C
@@ -371,16 +371,16 @@ Avec :
 
 ## Validation
 
-On constate que le resultat attendu est conforme aux attentes. En effet, on preovyait le comportement des filtres. On constate que les mesures comporte un certain degré d'incertitudes car la droite obtenu pour la proportionnalité ne croise pas parfaitement tous les points.
+On constate que le résultat attendu est conforme aux attentes. En effet, on prévoyait le comportement des filtres. On constate que les mesures comportent un certain degré d'incertitudes car la droite obtenue pour la proportionnalité ne croise pas parfaitement tous les points.
 
-Pour l'image que l'on a filmé a travers un filtre, on voit que le filtre numérique est beaucoup plus efficace que le filtre réel qui est imparfait(Il n'est pas centré sur la bonne longueur d'onde)
+Pour l'image que l'on a filmé à travers un filtre, on voit que le filtre numérique est beaucoup plus efficace que le filtre réel qui est imparfait (Il n'est pas centré sur la bonne longueur d'onde)
 
-La loi des Beer-Lambert, que nous avons verifié dans la derniere partie de l'exploitation, nous permet de conclure quant à l'existance d'une relation entre la couleur de la solution et sa concentration en colorant.
+La loi des Beer-Lambert, que nous avons vérifiée dans la derniere partie de l'exploitation, nous permet de conclure quant à l'existence d'une relation entre la couleur de la solution et sa concentration en colorant.
 
 ## Conclusion
 
-Ces travax ont permis d'explorer les propriétés des filtres, la transmittance et l'absorbance ainsi que les differentes syntheses resultants de la combinaison de filtres et de lumière.
+Ces travaux ont permis d'explorer les propriétés des filtres, la transmittance et l'absorbance ainsi que les différentes synthèses résultantes de la combinaison de filtres et de lumière.
 
-Ces travaux nous ont montré que l'ont pouvait assimiler des solutions colorer a des filtres plus precis car on peut faire verier leur couleur grace a des colorants.
+Ces travaux nous ont montré que l'on pouvait assimiler des solutions colorer a des filtres plus précis car on peut faire varier leur couleur grâce à des colorants.
 
-Ces travaux nous ont permis de commencer une réfléxion sur le moyen d'analyser une solution avec une couleur. Maintenant on peut deduire la concentration d'une solution a partir de l'absorbance et vice-versa, si on connait une valeur de reference pour la solution.
+Ces travaux nous ont permis de commencer une réflexion sur le moyen d'analyser une solution avec une couleur. Maintenant on peut déduire la concentration d'une solution à partir de l'absorbance et vice-versa, si on connait une valeur de référence pour la solution.

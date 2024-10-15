@@ -4,8 +4,8 @@ Quelle relation existe-t-il entre la couleur de la solution et la présence d'es
 
 ## Objectif
 
-- Explorer les propriété des filtres
-- Explorer les propriété des solutions colorées
+- Explorer les propriétée des filtres
+- Explorer les propriétée des solutions colorées
 - Début d'une réflexion sur le moyen d'analyser une solution avec la spectrophotométrie et la mesure de l'absorbance
 
 ## Moyens
@@ -62,7 +62,7 @@ On obtient les données avec le spectrophotomètre relié à l'ordinateur et la 
 
 Dans ce TP on considère la lumière comme étant une onde.    
 
-###### Protocole pour obtenir de la lumière filtré :
+###### Protocole pour obtenir de la lumière filtrée :
 
 - Aligner la lampe, le système porte filtre et la fibre optique.
 
@@ -70,7 +70,7 @@ Dans ce TP on considère la lumière comme étant une onde.
 
 - étalonner le logiciel du spectrophotomètre avec une lumiere blanche 
 
-- Réaliser un spectre avec différents filtres coloré : 
+- Réaliser un spectre avec différents filtres colorées : 
   
   - les trois primaires
   
@@ -92,7 +92,7 @@ Dans ce TP on considère la lumière comme étant une onde.
 
 - mettre environ 20 mL de solution mère dans un bécher 
 
-- en prélever 10 mL dans une pipette gradué
+- en prélever 10 mL avec une pipette gradué
 
 - La vider dans une fiole jaugé de 50 mL 
 
@@ -108,7 +108,7 @@ Dans ce TP on considère la lumière comme étant une onde.
 
 - La verser dans la fiole jaugée
 
-- Prélever 10 mL de la seconde solution mère dans une pipette jaugée
+- Prélever 10 mL de la seconde solution mère avec une pipette jaugée
 
 - La verser dans la fiole jaugée
 
@@ -291,7 +291,7 @@ On obtient :
 | Rouge             | 650             | 5.812     | 71.05             | 0.154      |
 | 2 rouge           | 650             | 4.927     | 60.22             | 0.219      |
 
-On voit que lorsqu'il y a plusieurs filtre, la transmittance globale est égale au produit des transmittance de chaque filtre :
+On voit que lorsqu'il y a plusieurs filtre, la transmittance globale est égale au produit des transmittances de chaque filtre :
 
 $$
 T_{cyan+cyan} = T_{cyan} \times T_{cyan} = {T_{cyan}}^2
@@ -307,7 +307,7 @@ $$
 {T_{cyan}}^2 = 62.23\%^2 = 38.73\%           
 $$
 
-Par contre, l’absorbance d'un ensemble de filtre est égale à l'absorbance de chaque filtre.
+Par contre, l’absorbance d'un ensemble de filtre est égale à la somme de l'absorbance de chaque filtre.
 
 $$
 A_{cyan + cyan} = A_{cyan}+A_{cyan}=2\times A_{cyan}
@@ -327,17 +327,17 @@ On voit que sur l'image numérique, le filtre est absolu donc on obtient du noir
 
 Lorsqu’on place un filtre rouge sur le trajet d'un faisceau de lumière blanche, on obtient de la lumière rouge. Or la lumière blanche est composée de lumière rouge, verte et bleue. Donc la lumière bleue et verte ont été absorbée. Le filtrage relève onc de la synthèse soustractive. 
 
-Lorsqu'on parle de la couleur d'un filtre, on parle de la couleur que le filtre laisse passer.
+Lorsqu'on parle de la couleur d'un filtre, on parle de la couleur que le filtre transmet ou diffuse.
 
 ###### Filtrage de la lumière avec une solution
 
-Les cuves de spectrophotométrie font toutes la même largeur. Grace a cela on peut comparer les résultats car la lumiere traverse autant de solutions dans chaque cas. 
+Les cuves de spectrophotométrie font toutes la même largeur. Grace à cela on peut comparer les résultats car la lumiere traverse autant de solutions dans chaque cas. Donc la comparaison est plus simple 
 
 La couleur de la solution est la couleur que la solution laisse passer comme dans le cas d'un filtre. Donc lorsqu'on observe la couleur d'une solution rouge à travers un filtre vert cela fait comme si on observe de la lumiere blanche à travers deux filtres, un rouge et un vert. Dans ce cas on voit la solution grise (un noir pas très franc).
 
 Lorsqu'on dilue la solution 5 fois, l'absorbance diminue. En effet la lumière est moins absorbée parce qu'il y a moins de soluté absorbant. Dans le cas de la solution jaune, lorsque la concentration passe de 1.1\*10<sup>-4</sup> mol/L à 2.2*10<sup>-5</sup>, l'absorbance passe de 0,988 à 0,518.
 
-Lorsqu'on mélange les deux solutions il y a une synthèse additive. La solution est donc verte car elle laisse passer le vert. 
+Lorsqu'on mélange les deux solutions, il y a une addition des couleurs (bleu + jaune = vert). La solution est donc verte car elle laisse passer le verte.
 
 Chaque colorant subit une dilution de facteur 5, la solution est donc concentrée pour chaque colorant à 2.2\*10<sup>-5</sup> mol/L.
 
@@ -371,16 +371,17 @@ Avec :
 
 ## Validation
 
+
 On constate que le résultat attendu est conforme aux attentes. En effet, on prévoyait le comportement des filtres. On constate que les mesures comportent un certain degré d'incertitudes car la droite obtenue pour la proportionnalité ne croise pas parfaitement tous les points.
 
 Pour l'image que l'on a filmé à travers un filtre, on voit que le filtre numérique est beaucoup plus efficace que le filtre réel qui est imparfait (Il n'est pas centré sur la bonne longueur d'onde)
 
-La loi des Beer-Lambert, que nous avons vérifiée dans la derniere partie de l'exploitation, nous permet de conclure quant à l'existence d'une relation entre la couleur de la solution et sa concentration en colorant.
+La loi de Beer-Lambert, que nous venons de vérifier nous permet de conclure quant à l'existence d'une relation entre la couleur de la solution et sa concentration en colorant.
 
 ## Conclusion
 
 Ces travaux ont permis d'explorer les propriétés des filtres, la transmittance et l'absorbance ainsi que les différentes synthèses résultantes de la combinaison de filtres et de lumière.
 
-Ces travaux nous ont montré que l'on pouvait assimiler des solutions colorer a des filtres plus précis car on peut faire varier leur couleur grâce à des colorants.
+Ces travaux nous ont montré que l'on pouvait assimiler des solutions colorées à des filtres plus précis car on peut faire varier leur couleur grâce à des colorants.
 
 Ces travaux nous ont permis de commencer une réflexion sur le moyen d'analyser une solution avec une couleur. Maintenant on peut déduire la concentration d'une solution à partir de l'absorbance et vice-versa, si on connait une valeur de référence pour la solution.
